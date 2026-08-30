@@ -14,7 +14,7 @@ export const OfferSection: React.FC<OfferSectionProps> = ({
   price = 109,
   oldPrice = 999,
   offerText = "🔥 Limited Premium Digital Bundle",
-  ctaText = "👉 अभी ₹109 में Bundle लें",
+  ctaText = "BUY NOW",
   externalPaymentUrl = "#offer",
 }) => {
   return (

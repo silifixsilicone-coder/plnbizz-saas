@@ -13,7 +13,7 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({
   price = 109,
-  ctaText = '👉 अभी ₹109 में Bundle लें',
+  ctaText = 'BUY NOW',
   externalPaymentUrl = 'https://checkout.example.com/pay/109',
   landingPageId = 'lp-default-001',
   slug = 'ultimate-bundle',

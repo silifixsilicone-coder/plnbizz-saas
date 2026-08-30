@@ -49,7 +49,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
     title: 'दूसरों को Online कमाते देखते रहोगे या खुद शुरुआत करोगे?',
     highlightedTitle: '2026 खत्म होने से पहले अपनी Digital Income की शुरुआत करो!',
     description: 'AI Videos बनाओ, YouTube पर Upload करो और कमाई की शुरुआत करो — या इन Premium Digital Resources को Resell करके अपना Online Income Source शुरू करो!',
-    buttonText: '👉 अभी ₹109 में Bundle लें',
+    buttonText: 'BUY NOW',
     buttonUrl: 'https://checkout.example.com/pay/109',
     heroImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
   },
@@ -61,7 +61,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
   price: 109,
   oldPrice: 999,
   offerText: '🔥 हजारों Premium Digital Resources — सिर्फ ₹109 में!',
-  ctaText: '👉 अभी ₹109 में Bundle लें',
+  ctaText: 'BUY NOW',
   externalPaymentUrl: 'https://checkout.example.com/pay/109',
   createdAt: '2026-08-01',
   updatedAt: '2026-08-30',
@@ -151,7 +151,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 499,
       pricingType: 'COMBO_INCLUDED'
@@ -166,7 +166,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 999,
       pricingType: 'COMBO_INCLUDED'
@@ -181,7 +181,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 799,
       pricingType: 'COMBO_INCLUDED'
@@ -196,7 +196,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 399,
       pricingType: 'COMBO_INCLUDED'
@@ -211,7 +211,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 599,
       pricingType: 'COMBO_INCLUDED'
@@ -226,7 +226,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 499,
       pricingType: 'COMBO_INCLUDED'
@@ -241,7 +241,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 1299,
       pricingType: 'COMBO_INCLUDED'
@@ -256,7 +256,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 699,
       pricingType: 'COMBO_INCLUDED'
@@ -271,7 +271,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1518173946687-a4c8a383392e?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 499,
       pricingType: 'COMBO_INCLUDED'
@@ -286,7 +286,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 899,
       pricingType: 'COMBO_INCLUDED'
@@ -301,7 +301,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 399,
       pricingType: 'SEPARATE_PURCHASE',
@@ -317,7 +317,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 299,
       pricingType: 'COMBO_INCLUDED'
@@ -332,7 +332,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80',
       price: 109,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
+      buttonText: 'BUY NOW',
       buttonUrl: 'https://checkout.example.com/pay/109',
       individualPrice: 599,
       pricingType: 'COMBO_INCLUDED'

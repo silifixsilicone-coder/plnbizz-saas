@@ -10,7 +10,7 @@ interface FinalCTAProps {
 
 export const FinalCTA: React.FC<FinalCTAProps> = ({
   price = 109,
-  ctaText = '👉 अभी ₹109 में Bundle लें',
+  ctaText = 'BUY NOW',
   externalPaymentUrl = '#offer',
 }) => {
   return (
