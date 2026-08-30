@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700;800;900&family=Noto+Sans+Devanagari:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif-hi: 'Noto Serif Devanagari', serif;
+    --font-sans-hi: 'Noto Sans Devanagari', sans-serif;
+    --font-admin: 'Plus Jakarta Sans', sans-serif;
+
+    --color-cream-bg: #FFF8E8;
+    --color-cream-card: #FFF9EC;
+    --color-cream-secondary: #FBF1D8;
+    --color-navy-dark: #071A2A;
+    --color-text-dark: #071A2A;
+    --color-gold-primary: #D89A20;
+    --color-gold-secondary: #E7B33E;
+    --color-border-gold: #E8C77A;
+    --color-border-subtle: #E8D6A8;
+    --color-text-muted: #6B6255;
+  }
+}
+
+@theme {
+  --font-serif: 'Noto Serif Devanagari', Georgia, serif;
+  --font-sans: 'Noto Sans Devanagari', system-ui, sans-serif;
+  --font-admin: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  --color-cream-bg: #FFF8E8;
+  --color-cream-card: #FFF9EC;
+  --color-cream-secondary: #FBF1D8;
+  --color-navy-dark: #071A2A;
+  --color-text-dark: #071A2A;
+  --color-gold-primary: #D89A20;
+  --color-gold-secondary: #E7B33E;
+  --color-border-gold: #E8C77A;
+  --color-border-subtle: #E8D6A8;
+  --color-text-muted: #6B6255;
+}
+
+body {
+  background-color: #FFF8E8;
+  color: #071A2A;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-devanagari-serif {
+  font-family: 'Noto Serif Devanagari', Georgia, serif;
+}
+
+.font-devanagari-sans {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.lang-hi {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.lang-en {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}

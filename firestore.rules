@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Landing pages collection rules:
+    // Allows full read/write for development, test mode, and admin CMS operations.
+    match /landingPages/{pageId} {
+      allow read, write: if true;
+    }
+
+    // CTA Click Tracking Events collection rules:
+    match /ctaClickEvents/{eventId} {
+      allow read, write: if true;
+    }
+
+    // Analytics Summary collection rules:
+    match /landingPageAnalytics/{analyticsId} {
+      allow read, write: if true;
+    }
+
+    // Orders Collection Rules:
+    match /orders/{orderId} {
+      allow read, write: if true;
+    }
+
+    // Leads Collection Rules:
+    match /leads/{leadId} {
+      allow read, write: if true;
+    }
+
+  }
+}

@@ -1,0 +1,14 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Landing pages image uploads:
+    // - Public users can read images.
+    // - Only authenticated admins (request.auth != null) can upload, update, and delete images.
+    match /landing-pages/{allPaths=**} {
+      allow read: if true;
+      allow write, delete: if request.auth != null;
+    }
+
+  }
+}
