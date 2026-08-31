@@ -1,4 +1,5 @@
 import { PageSection, SectionType, HeroContent, LandingProduct } from '@/types/landing-page';
+import { DEMO_LANDING_PAGE } from './mock-data';
 
 export const createNewSection = (type: SectionType, order: number): PageSection => {
   const id = `sec_${type}_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
@@ -62,32 +63,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
         data: {
           title: 'बंडल में क्या-क्या मिलेगा?',
           description: 'डिजिटल रिसोर्सेज का पूरा खजाना',
-          items: [
-            {
-              id: 'p1',
-              number: '01',
-              title: '5000+ Viral Reels Bundle',
-              description: 'बिना चेहरा दिखाए रील्स बनाएं और फॉलोअर्स बढ़ाएं',
-              image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80',
-              individualPrice: 499,
-              price: 109,
-              buttonText: 'BUY NOW',
-              buttonUrl: 'https://checkout.example.com/pay/109',
-              pricingType: 'COMBO_INCLUDED',
-            },
-            {
-              id: 'p2',
-              number: '02',
-              title: 'Canva Editable Templates',
-              description: 'सोशल मीडिया पोस्ट और बैनर्स के लिए बने-बनाए टेम्पलेट्स',
-              image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80',
-              individualPrice: 999,
-              price: 109,
-              buttonText: 'BUY NOW',
-              buttonUrl: 'https://checkout.example.com/pay/109',
-              pricingType: 'COMBO_INCLUDED',
-            },
-          ],
+          items: DEMO_LANDING_PAGE.products,
         },
       };
 
