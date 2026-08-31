@@ -13,6 +13,7 @@ interface EditableCTAProps {
   utmParams?: UTMParams;
   onCTAChange?: (newText: string, newUrl: string, newUtm?: UTMParams) => void;
   className?: string;
+  containerClassName?: string;
 }
 
 export const EditableCTA: React.FC<EditableCTAProps> = ({
@@ -23,6 +24,7 @@ export const EditableCTA: React.FC<EditableCTAProps> = ({
   utmParams,
   onCTAChange,
   className = '',
+  containerClassName = 'w-full',
 }) => {
   const [showModal, setShowModal] = useState(false);
   const [tempText, setTempText] = useState(buttonText);
@@ -52,7 +54,6 @@ export const EditableCTA: React.FC<EditableCTAProps> = ({
       return;
     }
     const finalUrl = buildExternalCheckoutUrl(tempUrl, utm);
-    // Exclude analytics tracking for admin test click (isAdminOrPreview = true)
     triggerExternalCheckout(finalUrl, undefined, true);
   };
 
@@ -77,15 +78,15 @@ export const EditableCTA: React.FC<EditableCTAProps> = ({
   };
 
   return (
-    <div className="relative inline-block font-admin">
+    <div className={`relative font-admin ${containerClassName}`}>
       
       {/* Target CTA Button */}
       <button
         type="button"
         onClick={handleClick}
-        className={`group relative inline-flex items-center justify-center font-black transition-transform transform active:scale-95 cursor-pointer ${className}`}
+        className={`group relative inline-flex items-center justify-center font-black transition-transform transform active:scale-95 cursor-pointer whitespace-nowrap px-8 ${className}`}
       >
-        <span>{buttonText}</span>
+        <span className="truncate">{buttonText}</span>
 
         {/* Edit Hover Badge */}
         {isEditingEnabled && (
@@ -96,7 +97,7 @@ export const EditableCTA: React.FC<EditableCTAProps> = ({
         )}
       </button>
 
-      {/* Inline CTA Editor Modal (Requirement 2 & 19) */}
+      {/* Inline CTA Editor Modal */}
       {showModal && (
         <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="w-full max-w-md bg-[#FFF9EC] border-2 border-[#E8C77A] rounded-3xl p-6 space-y-4 shadow-2xl text-[#071A2A] font-admin">
@@ -112,7 +113,6 @@ export const EditableCTA: React.FC<EditableCTAProps> = ({
               </button>
             </div>
 
-            {/* Admin-only Notice (Requirement 19) */}
             <div className="p-3 rounded-xl bg-[#071A2A] text-[#D89A20] border border-[#D89A20] text-xs font-bold flex items-center gap-2">
               <Info className="w-4 h-4 flex-shrink-0" />
               <span>This button opens an external checkout page.</span>
@@ -137,7 +137,7 @@ export const EditableCTA: React.FC<EditableCTAProps> = ({
                   required
                   value={tempText}
                   onChange={(e) => setTempText(e.target.value)}
-                  placeholder="👉 अभी ₹109 में Bundle लें"
+                  placeholder="BUY NOW"
                   className="w-full px-3 py-2 text-sm rounded-xl border border-[#E8C77A] bg-white font-bold"
                 />
               </div>
@@ -170,7 +170,7 @@ export const EditableCTA: React.FC<EditableCTAProps> = ({
                 </div>
               </div>
 
-              {/* Optional UTM & External Product ID Expander (Requirements 16 & 17) */}
+              {/* Tracking Parameters Expander */}
               <div className="pt-2 border-t border-[#E8C77A]/60">
                 <button
                   type="button"
@@ -202,7 +202,7 @@ export const EditableCTA: React.FC<EditableCTAProps> = ({
                           type="text"
                           value={utm.utmSource || ''}
                           onChange={(e) => setUtm({ ...utm, utmSource: e.target.value })}
-                          placeholder="plnbizz"
+                          placeholder="planbizz"
                           className="w-full px-2 py-1 rounded-lg border border-slate-300 text-xs"
                         />
                       </div>
