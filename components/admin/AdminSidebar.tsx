@@ -62,12 +62,9 @@ export const AdminSidebar: React.FC<AdminSidebarProps> = ({ isOpen = true, onClo
       <div className="p-6 border-b border-slate-800">
         <div className="flex items-center justify-between">
           <Link href="/admin" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#D89A20] text-[#071A2A] font-black text-xl flex items-center justify-center shadow-lg">
-              P
-            </div>
             <div className="flex flex-col">
               <span className="text-xl font-extrabold tracking-tight text-white">
-                PLN<span className="text-[#D89A20]">BIZZ</span>
+                PLAN<span className="text-[#D89A20]">BIZZ</span>
               </span>
               <span className="text-[10px] text-slate-400 font-bold uppercase tracking-widest -mt-1">
                 Admin CMS

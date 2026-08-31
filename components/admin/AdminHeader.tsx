@@ -15,7 +15,7 @@ interface AdminHeaderProps {
 export const AdminHeader: React.FC<AdminHeaderProps> = ({
   onToggleSidebar,
   title = 'Dashboard',
-  description = 'Manage your PLNBIZZ digital landing pages and bundles',
+  description = 'Manage your PLANBIZZ digital landing pages and bundles',
 }) => {
   const router = useRouter();
   const { logout } = useAuth();

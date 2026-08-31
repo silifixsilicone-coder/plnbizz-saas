@@ -12,12 +12,12 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-6 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-2xl font-black tracking-tight text-white">
-                PLN<span className="text-[#D89A20]">BIZZ</span>
+                PLAN<span className="text-[#D89A20]">BIZZ</span>
               </span>
             </div>
 
             <p className="text-slate-300 text-sm md:text-base leading-relaxed max-w-md">
-              PLNBIZZ भारत का सबसे भरोसेमंद प्रीमियम डिजिटल प्रोडक्ट और बंडल प्लेटफॉर्म है। हम नए क्रिएटर्स और उद्यमियों को ऑनलाइन इनकम शुरू करने में मदद करते हैं।
+              PLANBIZZ भारत का सबसे भरोसेमंद प्रीमियम डिजिटल प्रोडक्ट और बंडल प्लेटफॉर्म है। हम नए क्रिएटर्स और उद्यमियों को ऑनलाइन इनकम शुरू करने में मदद करते हैं।
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 font-medium">
-          <p>© {new Date().getFullYear()} PLNBIZZ. सर्वाधिकार सुरक्षित (All Rights Reserved).</p>
+          <p>© {new Date().getFullYear()} PLANBIZZ. सर्वाधिकार सुरक्षित (All Rights Reserved).</p>
           <div className="flex items-center gap-4">
             <span className="hover:text-slate-300">Privacy Policy</span>
             <span>•</span>

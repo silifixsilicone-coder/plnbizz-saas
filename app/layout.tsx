@@ -3,7 +3,7 @@ import { AuthProvider } from "@/context/AuthContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PLNBIZZ — Premium Digital Bundle Landing Page Builder",
+  title: "PLANBIZZ — Premium Digital Bundle Landing Page Builder",
   description: "Create premium, high-converting digital product landing pages on one domain.",
 };
 

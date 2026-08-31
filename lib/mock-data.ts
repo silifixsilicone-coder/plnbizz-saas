@@ -41,7 +41,7 @@ export const DEMO_PROBLEMS: ProblemCardItem[] = [
 
 export const DEMO_LANDING_PAGE: LandingPage = {
   id: 'lp-default-001',
-  name: 'PLNBIZZ Digital Product & Video Bundle',
+  name: 'PLANBIZZ Digital Product & Video Bundle',
   slug: 'ultimate-bundle',
   status: 'published',
   hero: {
@@ -53,7 +53,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
     buttonUrl: 'https://checkout.example.com/pay/109',
     heroImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
   },
-  productName: 'PLNBIZZ Digital Product & Video Bundle',
+  productName: 'PLANBIZZ Digital Product & Video Bundle',
   productImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
   headline: 'दूसरों को Online कमाते देखते रहोगे या खुद शुरुआत करोगे?',
   mainHeading: '2026 खत्म होने से पहले अपनी Digital Income की शुरुआत करो!',
@@ -65,7 +65,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
   externalPaymentUrl: 'https://checkout.example.com/pay/109',
   createdAt: '2026-08-01',
   updatedAt: '2026-08-30',
-  metaTitle: 'PLNBIZZ Premium Digital Bundle — All-in-One Resources',
+  metaTitle: 'PLANBIZZ Premium Digital Bundle — All-in-One Resources',
   metaDescription: 'हजारों Premium Digital Resources, Faceless Reels, Canva Templates और AI Prompts सिर्फ ₹109 में।',
   
   features: [

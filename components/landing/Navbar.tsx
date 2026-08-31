@@ -35,7 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Brand Name */}
         <a href="/" className="flex items-center gap-2 group">
           <span className="text-xl sm:text-2xl font-black tracking-tight text-white group-hover:text-[#D89A20] transition-colors">
-            PLN<span className="text-[#D89A20]">BIZZ</span>
+            PLAN<span className="text-[#D89A20]">BIZZ</span>
           </span>
         </a>
 
