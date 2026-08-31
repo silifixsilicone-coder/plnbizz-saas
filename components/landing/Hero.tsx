@@ -30,7 +30,7 @@ export const Hero: React.FC<HeroProps> = ({
   const offerText = data?.offerText || data?.hero?.badge || "🔥 हजारों Premium Digital Resources — सिर्फ ₹109 में!";
   const ctaText = data?.ctaText || data?.hero?.buttonText || "👉 अभी ₹109 में Bundle लें";
   const externalPaymentUrl = data?.externalPaymentUrl || data?.hero?.buttonUrl || "https://checkout.example.com/pay/109";
-  const productImage = data?.productImage || data?.hero?.heroImage || "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80";
+  const productImage = data?.productImage || data?.hero?.heroImage || "/hero-bundle.jpg";
 
   return (
     <section id="about" className="relative py-12 md:py-20 lg:py-24 bg-[#FFF8E8] overflow-hidden border-b border-[#E8C77A]/60 font-sans">
