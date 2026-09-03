@@ -76,7 +76,7 @@ export const formatLandingPageDoc = (id: string, data: any, usePublishedVersion:
     price: p.price ?? p.individualPrice ?? 20,
     originalPrice: p.originalPrice ?? p.oldPrice ?? 999,
     buttonText: p.buttonText || source.ctaText || 'BUY NOW',
-    buttonUrl: p.buttonUrl || source.externalPaymentUrl || 'https://checkout.example.com/pay/20',
+    buttonUrl: p.buttonUrl || source.externalPaymentUrl || 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
     badge: p.badge || 'Popular',
     individualPrice: p.individualPrice ?? p.price ?? 499,
     pricingType: p.pricingType || 'COMBO_INCLUDED',

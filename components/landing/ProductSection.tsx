@@ -72,7 +72,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {items.map((item, idx) => {
             const displayPrice = item.individualPrice ?? item.price ?? 499;
-            const targetUrl = item.buttonUrl || item.separateCheckoutUrl || 'https://checkout.example.com/pay/109';
+            const targetUrl = item.buttonUrl || item.separateCheckoutUrl || 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-';
 
             const handleProductClick = (e: React.MouseEvent) => {
               e.preventDefault();

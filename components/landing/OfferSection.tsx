@@ -15,7 +15,7 @@ export const OfferSection: React.FC<OfferSectionProps> = ({
   oldPrice = 999,
   offerText = "🔥 Limited Premium Digital Bundle",
   ctaText = "BUY NOW",
-  externalPaymentUrl = "#offer",
+  externalPaymentUrl = "https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-",
 }) => {
   return (
     <section id="offer" className="py-20 md:py-28 bg-[#FFF8E8] relative overflow-hidden border-b border-[#E8C77A]">

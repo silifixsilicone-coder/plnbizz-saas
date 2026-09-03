@@ -14,7 +14,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({
   price = 20,
   ctaText = 'BUY NOW',
-  externalPaymentUrl = 'https://checkout.example.com/pay/20',
+  externalPaymentUrl = 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
   landingPageId = 'lp-default-001',
   slug = 'ultimate-bundle',
 }) => {

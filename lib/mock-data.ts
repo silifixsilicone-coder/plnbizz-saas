@@ -50,7 +50,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
     highlightedTitle: '2026 खत्म होने से पहले अपनी Digital Income की शुरुआत करो!',
     description: 'AI Videos बनाओ, YouTube पर Upload करो और कमाई की शुरुआत करो — या इन Premium Digital Resources को Resell करके अपना Online Income Source शुरू करो!',
     buttonText: 'BUY NOW',
-    buttonUrl: 'https://checkout.example.com/pay/20',
+    buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
     heroImage: '/hero-bundle.jpg',
   },
   productName: 'PLANBIZZ Digital Product & Video Bundle',
@@ -62,7 +62,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
   oldPrice: 999,
   offerText: '🔥 हजारों Premium Digital Resources — सिर्फ ₹20 में!',
   ctaText: 'BUY NOW',
-  externalPaymentUrl: 'https://checkout.example.com/pay/20',
+  externalPaymentUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
   createdAt: '2026-08-01',
   updatedAt: '2026-08-30',
   metaTitle: 'PLANBIZZ Premium Digital Bundle — All-in-One Resources',
@@ -152,7 +152,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 499,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -167,7 +167,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 399,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -182,7 +182,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 299,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -197,7 +197,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 599,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -212,7 +212,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 699,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -227,7 +227,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 799,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -242,7 +242,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 499,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -257,7 +257,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 499,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -272,7 +272,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 999,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -287,7 +287,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 899,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -302,7 +302,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 1299,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -317,7 +317,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 499,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -332,7 +332,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 899,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -347,7 +347,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 399,
       pricingType: 'COMBO_INCLUDED'
     },
@@ -362,7 +362,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 599,
       pricingType: 'COMBO_INCLUDED'
     }

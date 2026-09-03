@@ -29,7 +29,7 @@ export const Hero: React.FC<HeroProps> = ({
   const description = data?.description || data?.hero?.description || "AI Videos बनाओ, YouTube पर Upload करो और कमाई की शुरुआत करो — या इन Premium Digital Resources को Resell करके अपना Online Income Source शुरू करो!";
   const offerText = data?.offerText || data?.hero?.badge || "🔥 हजारों Premium Digital Resources — सिर्फ ₹20 में!";
   const ctaText = data?.ctaText || data?.hero?.buttonText || "BUY NOW";
-  const externalPaymentUrl = data?.externalPaymentUrl || data?.hero?.buttonUrl || "https://checkout.example.com/pay/20";
+  const externalPaymentUrl = data?.externalPaymentUrl || data?.hero?.buttonUrl || "https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-";
   const productImage = data?.productImage || data?.hero?.heroImage || "/hero-bundle.jpg";
 
   return (

@@ -17,7 +17,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
           highlightedTitle: '2026 खत्म होने से पहले अपनी Digital Income की शुरुआत करो!',
           description: '5000+ प्रीमियम कैनवा टेम्पलेट्स, रील्स बंडल और डिजिटल रिसोर्सेज का पूरा खजाना!',
           buttonText: 'BUY NOW',
-          buttonUrl: 'https://checkout.example.com/pay/20',
+          buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
           heroImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
         },
       };
@@ -146,7 +146,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
           price: 20,
           oldPrice: 4999,
           buttonText: 'BUY NOW',
-          buttonUrl: 'https://checkout.example.com/pay/20',
+          buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
           image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80',
         },
       };
@@ -174,7 +174,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
           description: 'अपने बिजनेस को नई ऊंचाइयों पर ले जाएं',
           image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
           buttonText: 'BUY NOW',
-          buttonUrl: 'https://checkout.example.com/pay/20',
+          buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
         },
       };
 
@@ -214,7 +214,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
           heading: 'देर न करें! आज ही अपना बंडल क्लेम करें',
           description: 'ऑफर सीमित समय के लिए ही उपलब्ध है।',
           buttonText: 'BUY NOW',
-          buttonUrl: 'https://checkout.example.com/pay/20',
+          buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
         },
       };
 

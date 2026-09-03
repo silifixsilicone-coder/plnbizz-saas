@@ -11,7 +11,7 @@ interface FinalCTAProps {
 export const FinalCTA: React.FC<FinalCTAProps> = ({
   price = 20,
   ctaText = 'BUY NOW',
-  externalPaymentUrl = '#offer',
+  externalPaymentUrl = 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
 }) => {
   return (
     <section className="py-24 md:py-36 bg-[#071A2A] text-white text-center relative overflow-hidden border-t-4 border-[#D89A20]">

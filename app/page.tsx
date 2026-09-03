@@ -40,7 +40,7 @@ export default async function PublicHomePage() {
         price={data.price || 20}
         oldPrice={data.oldPrice || 999}
         ctaText={data.ctaText || 'BUY NOW'}
-        externalPaymentUrl={data.externalPaymentUrl || 'https://checkout.example.com/pay/20'}
+        externalPaymentUrl={data.externalPaymentUrl || 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-'}
         landingPageId={data.id}
         slug={data.slug}
       />

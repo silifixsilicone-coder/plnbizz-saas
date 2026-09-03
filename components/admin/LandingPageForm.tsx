@@ -62,7 +62,7 @@ export const LandingPageForm: React.FC<LandingPageFormProps> = ({
     initialData?.hero?.buttonText || initialData?.ctaText || 'BUY NOW'
   );
   const [heroButtonUrl, setHeroButtonUrl] = useState(
-    initialData?.hero?.buttonUrl || initialData?.externalPaymentUrl || 'https://checkout.example.com/pay/20'
+    initialData?.hero?.buttonUrl || initialData?.externalPaymentUrl || 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-'
   );
   const [heroImage, setHeroImage] = useState(
     initialData?.hero?.heroImage || initialData?.productImage || 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80'
@@ -149,7 +149,7 @@ export const LandingPageForm: React.FC<LandingPageFormProps> = ({
       price: 20,
       originalPrice: 999,
       buttonText: 'BUY NOW',
-      buttonUrl: 'https://checkout.example.com/pay/20',
+      buttonUrl: 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
       individualPrice: 299,
       pricingType: 'COMBO_INCLUDED',
     };

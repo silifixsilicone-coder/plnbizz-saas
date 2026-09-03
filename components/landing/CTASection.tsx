@@ -11,7 +11,7 @@ interface CTASectionProps {
 export const CTASection: React.FC<CTASectionProps> = ({
   price = 109,
   ctaText = '👉 अभी ₹109 में Bundle लें',
-  externalPaymentUrl = '#offer',
+  externalPaymentUrl = 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-',
 }) => {
   return (
     <section className="py-16 md:py-20 bg-[#FAF8F5] border-t border-[#E2D9CC]">

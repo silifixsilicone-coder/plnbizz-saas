@@ -33,7 +33,7 @@ export const ImageBannerSection: React.FC<ImageBannerSectionProps> = ({
   const description = data?.description || 'अपने बिजनेस को नई ऊंचाइयों पर ले जाएं';
   const image = data?.image || 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80';
   const buttonText = data?.buttonText || 'अभी खरीदें';
-  const buttonUrl = data?.buttonUrl || 'https://checkout.example.com/pay/109';
+  const buttonUrl = data?.buttonUrl || 'https://superprofile.bio/vp/🔥-50-000--premium-digital-resources-—-सिर्फ-₹20-में-';
 
   return (
     <section className="py-12 md:py-16 bg-[#FFF8E8] border-t border-[#E8C77A]">
