@@ -59,10 +59,10 @@ export const LandingPageForm: React.FC<LandingPageFormProps> = ({
     initialData?.hero?.description || initialData?.description || ''
   );
   const [heroButtonText, setHeroButtonText] = useState(
-    initialData?.hero?.buttonText || initialData?.ctaText || '👉 अभी ₹109 में Bundle लें'
+    initialData?.hero?.buttonText || initialData?.ctaText || 'BUY NOW'
   );
   const [heroButtonUrl, setHeroButtonUrl] = useState(
-    initialData?.hero?.buttonUrl || initialData?.externalPaymentUrl || 'https://checkout.example.com/pay/109'
+    initialData?.hero?.buttonUrl || initialData?.externalPaymentUrl || 'https://checkout.example.com/pay/20'
   );
   const [heroImage, setHeroImage] = useState(
     initialData?.hero?.heroImage || initialData?.productImage || 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80'
@@ -80,10 +80,10 @@ export const LandingPageForm: React.FC<LandingPageFormProps> = ({
         title: 'Gym Workout Animation Videos',
         description: '3D workout animations for viral reels.',
         image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80',
-        price: 109,
+        price: 20,
         originalPrice: 999,
-        buttonText: 'Get Bundle',
-        buttonUrl: 'https://checkout.example.com/pay/109',
+        buttonText: 'BUY NOW',
+        buttonUrl: 'https://checkout.example.com/pay/20',
         individualPrice: 499,
         pricingType: 'COMBO_INCLUDED',
       },
@@ -109,7 +109,7 @@ export const LandingPageForm: React.FC<LandingPageFormProps> = ({
         name: 'राहुल शर्मा',
         role: 'Content Creator',
         avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80',
-        content: 'सिर्फ ₹109 में इतना सारा प्रीमियम कंटेंट मिलना अविश्वसनीय है!',
+        content: 'सिर्फ ₹20 में इतना सारा प्रीमियम कंटेंट मिलना अविश्वसनीय है!',
         rating: 5,
       },
     ]
@@ -146,10 +146,10 @@ export const LandingPageForm: React.FC<LandingPageFormProps> = ({
       title: 'New Digital Resource',
       description: 'Short overview of resource...',
       image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80',
-      price: 109,
+      price: 20,
       originalPrice: 999,
-      buttonText: 'Get Bundle',
-      buttonUrl: 'https://checkout.example.com/pay/109',
+      buttonText: 'BUY NOW',
+      buttonUrl: 'https://checkout.example.com/pay/20',
       individualPrice: 299,
       pricingType: 'COMBO_INCLUDED',
     };

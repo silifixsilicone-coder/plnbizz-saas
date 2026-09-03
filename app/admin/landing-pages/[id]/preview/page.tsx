@@ -65,10 +65,10 @@ export default async function AdminLandingPagePreview({
 
         {/* Mobile Sticky Buy Bar */}
         <MobileStickyBuyBar
-          price={data.price || 109}
+          price={data.price || 20}
           oldPrice={data.oldPrice || 999}
-          ctaText={data.ctaText || '👉 अभी ₹109 में Bundle लें'}
-          externalPaymentUrl={data.externalPaymentUrl || 'https://checkout.example.com/pay/109'}
+          ctaText={data.ctaText || 'BUY NOW'}
+          externalPaymentUrl={data.externalPaymentUrl || 'https://checkout.example.com/pay/20'}
           landingPageId={data.id}
           slug={data.slug}
         />

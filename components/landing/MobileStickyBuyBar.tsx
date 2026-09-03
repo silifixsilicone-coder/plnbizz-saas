@@ -13,10 +13,10 @@ interface MobileStickyBuyBarProps {
 }
 
 export const MobileStickyBuyBar: React.FC<MobileStickyBuyBarProps> = ({
-  price = 109,
+  price = 20,
   oldPrice = 999,
   ctaText = 'BUY NOW',
-  externalPaymentUrl = 'https://checkout.example.com/pay/109',
+  externalPaymentUrl = 'https://checkout.example.com/pay/20',
   landingPageId = 'lp-default-001',
   slug = 'ultimate-bundle',
 }) => {

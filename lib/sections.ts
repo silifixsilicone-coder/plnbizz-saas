@@ -17,7 +17,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
           highlightedTitle: '2026 खत्म होने से पहले अपनी Digital Income की शुरुआत करो!',
           description: '5000+ प्रीमियम कैनवा टेम्पलेट्स, रील्स बंडल और डिजिटल रिसोर्सेज का पूरा खजाना!',
           buttonText: 'BUY NOW',
-          buttonUrl: 'https://checkout.example.com/pay/109',
+          buttonUrl: 'https://checkout.example.com/pay/20',
           heroImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
         },
       };
@@ -103,7 +103,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
               id: 't2',
               name: 'पूजा शर्मा',
               role: 'फ्रीलांसर',
-              content: 'कैनवा टेम्पलेट्स ने मेरा घंटों का समय बचा लिया। बेस्ट ₹109 इन्वेस्टमेंट!',
+              content: 'कैनवा टेम्पलेट्स ने मेरा घंटों का समय बचा लिया। बेस्ट ₹20 इन्वेस्टमेंट!',
               rating: 5,
             },
           ],
@@ -141,12 +141,12 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
         visible: true,
         data: {
           badge: '🔥 SPECIAL LIMITED TIME OFFER',
-          heading: 'आज ही पूरा डिजिटल बंडल ₹109 में पाएं',
+          heading: 'आज ही पूरा डिजिटल बंडल ₹20 में पाएं',
           description: 'मूल्य ₹4,999 — आज का विशेष डिस्काउंट ऑफर!',
-          price: 109,
+          price: 20,
           oldPrice: 4999,
           buttonText: 'BUY NOW',
-          buttonUrl: 'https://checkout.example.com/pay/109',
+          buttonUrl: 'https://checkout.example.com/pay/20',
           image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80',
         },
       };
@@ -174,7 +174,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
           description: 'अपने बिजनेस को नई ऊंचाइयों पर ले जाएं',
           image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
           buttonText: 'BUY NOW',
-          buttonUrl: 'https://checkout.example.com/pay/109',
+          buttonUrl: 'https://checkout.example.com/pay/20',
         },
       };
 
@@ -214,7 +214,7 @@ export const createNewSection = (type: SectionType, order: number): PageSection 
           heading: 'देर न करें! आज ही अपना बंडल क्लेम करें',
           description: 'ऑफर सीमित समय के लिए ही उपलब्ध है।',
           buttonText: 'BUY NOW',
-          buttonUrl: 'https://checkout.example.com/pay/109',
+          buttonUrl: 'https://checkout.example.com/pay/20',
         },
       };
 

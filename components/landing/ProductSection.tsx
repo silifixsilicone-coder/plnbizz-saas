@@ -25,7 +25,7 @@ export const ProductSection: React.FC<ProductSectionProps> = ({
   onItemChange,
 }) => {
   const [editingPriceIdx, setEditingPriceIdx] = useState<number | null>(null);
-  const [tempPrice, setTempPrice] = useState<number>(109);
+  const [tempPrice, setTempPrice] = useState<number>(20);
 
   const [editingBadgeIdx, setEditingBadgeIdx] = useState<number | null>(null);
   const [tempBadge, setTempBadge] = useState<string>('');

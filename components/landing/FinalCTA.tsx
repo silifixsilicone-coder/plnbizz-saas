@@ -9,7 +9,7 @@ interface FinalCTAProps {
 }
 
 export const FinalCTA: React.FC<FinalCTAProps> = ({
-  price = 109,
+  price = 20,
   ctaText = 'BUY NOW',
   externalPaymentUrl = '#offer',
 }) => {

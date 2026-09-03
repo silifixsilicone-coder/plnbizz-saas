@@ -11,7 +11,7 @@ interface OfferSectionProps {
 }
 
 export const OfferSection: React.FC<OfferSectionProps> = ({
-  price = 109,
+  price = 20,
   oldPrice = 999,
   offerText = "🔥 Limited Premium Digital Bundle",
   ctaText = "BUY NOW",
@@ -25,7 +25,7 @@ export const OfferSection: React.FC<OfferSectionProps> = ({
         {/* Top Flame Badge */}
         <div className="inline-flex items-center gap-2 bg-[#D89A20]/20 border border-[#E8C77A] text-[#071A2A] px-4 py-2 rounded-full font-black text-sm md:text-base mb-8 shadow-sm">
           <Flame className="w-5 h-5 text-[#D89A20] fill-current animate-bounce" />
-          <span>विशेष ऑफर — सीमित समय के लिए सिर्फ ₹109 में!</span>
+          <span>विशेष ऑफर — सीमित समय के लिए सिर्फ ₹20 में!</span>
         </div>
 
         {/* Offer Container Card */}

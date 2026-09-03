@@ -27,9 +27,9 @@ export const Hero: React.FC<HeroProps> = ({
   const headline = data?.headline || data?.hero?.title || "दूसरों को Online कमाते देखते रहोगे या खुद शुरुआत करोगे?";
   const mainHeading = data?.mainHeading || data?.hero?.highlightedTitle || "2026 खत्म होने से पहले अपनी Digital Income की शुरुआत करो!";
   const description = data?.description || data?.hero?.description || "AI Videos बनाओ, YouTube पर Upload करो और कमाई की शुरुआत करो — या इन Premium Digital Resources को Resell करके अपना Online Income Source शुरू करो!";
-  const offerText = data?.offerText || data?.hero?.badge || "🔥 हजारों Premium Digital Resources — सिर्फ ₹109 में!";
-  const ctaText = data?.ctaText || data?.hero?.buttonText || "👉 अभी ₹109 में Bundle लें";
-  const externalPaymentUrl = data?.externalPaymentUrl || data?.hero?.buttonUrl || "https://checkout.example.com/pay/109";
+  const offerText = data?.offerText || data?.hero?.badge || "🔥 हजारों Premium Digital Resources — सिर्फ ₹20 में!";
+  const ctaText = data?.ctaText || data?.hero?.buttonText || "BUY NOW";
+  const externalPaymentUrl = data?.externalPaymentUrl || data?.hero?.buttonUrl || "https://checkout.example.com/pay/20";
   const productImage = data?.productImage || data?.hero?.heroImage || "/hero-bundle.jpg";
 
   return (
@@ -94,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
                 <div>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-3xl sm:text-4xl font-extrabold text-[#071A2A]">₹{data?.price || 109}</span>
+                    <span className="text-3xl sm:text-4xl font-extrabold text-[#071A2A]">₹{data?.price || 20}</span>
                     <span className="text-lg text-[#6B6255] line-through font-semibold">₹{data?.oldPrice || 999}+</span>
                     <span className="text-xs bg-gradient-to-r from-[#D89A20] to-[#E7B33E] text-[#071A2A] font-extrabold px-2.5 py-0.5 rounded-md">89% OFF</span>
                   </div>

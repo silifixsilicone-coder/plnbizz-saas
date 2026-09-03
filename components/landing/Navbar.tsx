@@ -12,9 +12,9 @@ interface NavbarProps {
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
-  price = 109,
+  price = 20,
   ctaText = 'BUY NOW',
-  externalPaymentUrl = 'https://checkout.example.com/pay/109',
+  externalPaymentUrl = 'https://checkout.example.com/pay/20',
   landingPageId = 'lp-default-001',
   slug = 'ultimate-bundle',
 }) => {
