@@ -21,21 +21,29 @@ interface AuthContextType {
 }
 
 const AuthContext = createContext<AuthContextType>({
-  user: MOCK_TEST_ADMIN,
-  loading: false,
+  user: null,
+  loading: true,
   logout: async () => {},
   resetPassword: async () => {},
   bypassTestLogin: () => {},
 });
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [user, setUser] = useState<User | null>(MOCK_TEST_ADMIN);
-  const [loading, setLoading] = useState<boolean>(false);
+  const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      // If Firebase Auth has a logged-in user, use it; otherwise fallback to test admin user
-      setUser(currentUser || MOCK_TEST_ADMIN);
+      if (currentUser) {
+        setUser(currentUser);
+      } else {
+        const isLocalAuth = typeof window !== 'undefined' && sessionStorage.getItem('plnbizz_admin_authenticated') === 'true';
+        if (isLocalAuth) {
+          setUser(MOCK_TEST_ADMIN);
+        } else {
+          setUser(null);
+        }
+      }
       setLoading(false);
     });
 
@@ -48,7 +56,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     } catch (e) {
       console.warn('SignOut warning:', e);
     }
-    setUser(MOCK_TEST_ADMIN); // Maintain test mode access
+    if (typeof window !== 'undefined') {
+      sessionStorage.removeItem('plnbizz_admin_authenticated');
+    }
+    setUser(null);
   };
 
   const resetPassword = async (email: string) => {
@@ -56,12 +67,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const bypassTestLogin = () => {
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('plnbizz_admin_authenticated', 'true');
+    }
     setUser(MOCK_TEST_ADMIN);
     setLoading(false);
   };
 
   return (
-    <AuthContext.Provider value={{ user: user || MOCK_TEST_ADMIN, loading, logout, resetPassword, bypassTestLogin }}>
+    <AuthContext.Provider value={{ user, loading, logout, resetPassword, bypassTestLogin }}>
       {children}
     </AuthContext.Provider>
   );

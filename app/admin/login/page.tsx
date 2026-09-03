@@ -12,34 +12,35 @@ import Link from 'next/link';
 export default function AdminLoginPage() {
   const router = useRouter();
   const { bypassTestLogin } = useAuth();
-  const [email, setEmail] = useState('admin@plnbizz.com');
-  const [password, setPassword] = useState('admin123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showForgotModal, setShowForgotModal] = useState(false);
   const [resetEmail, setResetEmail] = useState('');
   const [resetStatus, setResetStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
 
-  const handleBypass = () => {
-    bypassTestLogin();
-    router.push('/admin');
-  };
-
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
 
+    if (!email || !password) {
+      setError('Please enter both email and password.');
+      return;
+    }
+
     setIsSubmitting(true);
     try {
-      if (email && password) {
-        await signInWithEmailAndPassword(auth, email, password);
-      }
+      await signInWithEmailAndPassword(auth, email, password);
       router.push('/admin');
     } catch (err: any) {
-      console.warn('Firebase Auth Login fallback to Test Mode:', err.code, err.message);
-      // Fallback to Test Mode bypass on any Firebase Auth error
-      bypassTestLogin();
-      router.push('/admin');
+      // Fallback check for demo/dev admin credentials
+      if (email.trim().toLowerCase() === 'admin@plnbizz.com' && password === 'admin123') {
+        bypassTestLogin();
+        router.push('/admin');
+      } else {
+        setError('Invalid credentials. Please enter a valid admin email and password.');
+      }
     } finally {
       setIsSubmitting(false);
     }
@@ -108,16 +109,6 @@ export default function AdminLoginPage() {
               Sign in to manage your PLNBIZZ landing pages
             </p>
           </div>
-
-          {/* Dev Test Mode Quick Access Button */}
-          <button
-            type="button"
-            onClick={handleBypass}
-            className="w-full py-3 px-4 rounded-2xl bg-[#071A2A] text-[#D89A20] border-2 border-[#D89A20] hover:bg-[#0A2236] font-black text-xs sm:text-sm shadow-lg flex items-center justify-center gap-2 transition-transform transform active:scale-95"
-          >
-            <Zap className="w-4 h-4 text-[#D89A20] fill-[#D89A20]" />
-            <span>⚡ Dev / Test Mode Quick Access (Direct Login)</span>
-          </button>
 
           {/* Error Banner */}
           {error && (

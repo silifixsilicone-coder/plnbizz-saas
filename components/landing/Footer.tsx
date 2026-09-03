@@ -79,10 +79,6 @@ export const Footer: React.FC = () => {
             <span className="hover:text-slate-300">Privacy Policy</span>
             <span>•</span>
             <span className="hover:text-slate-300">Terms & Conditions</span>
-            <span>•</span>
-            <Link href="/admin" className="text-[#D89A20] font-bold hover:underline">
-              Admin Panel
-            </Link>
           </div>
         </div>
 
