@@ -358,7 +358,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       description: '6,000+ चैटजीपीटी प्रॉम्प्ट्स, AI टूल्स डायरेक्टरी, वेबसाइट टेम्पलेट्स और डेवलपर किट्स।',
       shortDescription: '6,000+ चैटजीपीटी प्रॉम्प्ट्स व टेक AI एसेट्स।',
       badge: '6,000+ Prompts',
-      image: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=600&q=80',
+      image: '/products/product-15-chatgpt-prompts.jpg',
       price: 109,
       originalPrice: 999,
       buttonText: 'BUY NOW',
