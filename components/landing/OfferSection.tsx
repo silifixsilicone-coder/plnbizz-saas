@@ -1,6 +1,7 @@
 import React from 'react';
 import { Flame, CheckCircle, ShieldCheck, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { sanitizeExternalUrl } from '@/lib/url';
 
 interface OfferSectionProps {
   price?: number;
@@ -80,7 +81,12 @@ export const OfferSection: React.FC<OfferSectionProps> = ({
 
           {/* Gold CTA */}
           <div className="pt-2">
-            <a href={externalPaymentUrl} className="block w-full">
+            <a
+              href={sanitizeExternalUrl(externalPaymentUrl)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full"
+            >
               <Button
                 variant="gold"
                 size="xl"

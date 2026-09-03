@@ -27,7 +27,15 @@ export const sanitizeExternalUrl = (url: string): string => {
   if (!isValidExternalUrl(url)) {
     return '#';
   }
-  return url.trim();
+  try {
+    return encodeURI(decodeURI(url.trim()));
+  } catch (e) {
+    try {
+      return encodeURI(url.trim());
+    } catch (err) {
+      return url.trim();
+    }
+  }
 };
 
 export interface UTMParams {

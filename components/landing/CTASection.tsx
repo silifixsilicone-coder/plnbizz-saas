@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/Button';
 import { Sparkles, ShieldCheck } from 'lucide-react';
+import { sanitizeExternalUrl } from '@/lib/url';
 
 interface CTASectionProps {
   price?: number;
@@ -26,7 +27,12 @@ export const CTASection: React.FC<CTASectionProps> = ({
         </p>
 
         <div className="pt-4 max-w-md mx-auto">
-          <a href={externalPaymentUrl} className="block w-full">
+          <a
+            href={sanitizeExternalUrl(externalPaymentUrl)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full"
+          >
             <Button variant="gold" size="xl" fullWidth className="py-5 text-xl font-black shadow-xl">
               <span>{ctaText}</span>
             </Button>

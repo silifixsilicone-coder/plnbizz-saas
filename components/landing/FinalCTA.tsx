@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/Button';
 import { Sparkles, ShieldCheck } from 'lucide-react';
+import { sanitizeExternalUrl } from '@/lib/url';
 
 interface FinalCTAProps {
   price?: number;
@@ -43,7 +44,12 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({
 
         {/* CTA Button */}
         <div className="pt-6 max-w-xl mx-auto">
-          <a href={externalPaymentUrl} className="block w-full">
+          <a
+            href={sanitizeExternalUrl(externalPaymentUrl)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full"
+          >
             <Button
               variant="gold"
               size="xl"
