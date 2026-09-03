@@ -328,7 +328,7 @@ export const DEMO_LANDING_PAGE: LandingPage = {
       description: 'Meta Ads, Google Ads, SEO, Email Marketing, Funnels और Affiliate Mastery।',
       shortDescription: 'कंप्लीट डिजिटल मार्केटिंग और विज्ञापनों का कोर्स।',
       badge: 'Marketing Mastery',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80',
+      image: '/products/product-13-digital-marketing.jpg',
       price: 109,
       originalPrice: 999,
       buttonText: 'BUY NOW',
